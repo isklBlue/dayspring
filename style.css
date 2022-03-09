@@ -54,3 +54,14 @@ body {
   top: 425px;
   left: 75px;
 }
+
+.circle {
+  border-radius: 50%;
+}
+
+.sun-1 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border: 2px solid black;
+}
