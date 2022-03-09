@@ -1,0 +1,56 @@
+:root {
+  --book-color: #f5f4f2;
+  --text-color: #0f0e10;
+  --bg-color: #0e0e0e;
+  --red-color: #c3624f;
+}
+
+@font-face {
+  font-family: "swiss-721";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Swiss 721 Extended BT.ttf") format("opentype");
+  }
+
+@font-face {
+  font-family: "neil-bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Neil\ Bold.ttf") format("opentype");
+  }
+
+body {
+  background: var(--bg-color);
+}
+
+.book {
+  width: 400px;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--book-color);
+}
+
+.title {
+  font-family: 'neil-bold', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  color: var(--text-color);
+  position: absolute;
+  top: 270px;
+  left: 20px;
+}
+
+.author {
+  font-family: neil-bold-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 37px;
+  color: var(--text-color);
+  position: absolute;
+  top: 425px;
+  left: 75px;
+}
